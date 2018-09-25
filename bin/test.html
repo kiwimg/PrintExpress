@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+<input value="打印" name="json" type="button" onclick="printXXXX()">
+
+<script type="text/javascript">
+    var isPrinterOk = false;
+    function printXXXX() {
+        var printData = [
+            {
+                "number": "232321414141141411",
+                "recipient": {
+                    "name": "Gates",
+                    "phone": "1356634333",
+                    "address": "四川省成都市武侯区长益东二路"
+                },
+                "orders": {
+                    "orderNo": "3333333",
+                    "total": "11212",
+                    "licenceNo": "川ASB110R",
+                    "product": [
+                        {
+                            "prName": "车险",
+                            "company": "平安"
+                        },
+                        {
+                            "prName": "非车险",
+                            "company": "国寿财"
+                        }
+                    ]
+                },
+                "gift": "重庆漆面修复券,重庆理赔服务,重庆汽车保养,重庆洗车服务,重庆汽车全车检测,重庆年审",
+                "sender": {
+                    "name": "顾问",
+                    "phone": "1356634333"
+                },
+                "remark": ""
+            },{
+                "number": "232321414141141411",
+                "recipient": {
+                    "name": "Gates",
+                    "phone": "1356634333",
+                    "address": "四川省成都市武侯区长益东二路"
+                },
+                "orders": {
+                    "orderNo": "3333333",
+                    "total": "11212",
+                    "licenceNo": "川ASB110R",
+                    "product": [
+                        {
+                            "prName": "车险",
+                            "company": "平安"
+                        },
+                        {
+                            "prName": "非车险",
+                            "company": "国寿财"
+                        }
+                    ]
+                },
+                "gift": "重庆漆面修复券,重庆理赔服务,重庆汽车保养,重庆洗车服务,重庆汽车全车检测,重庆年审",
+                "sender": {
+                    "name": "顾问",
+                    "phone": "1356634333"
+                },
+                "remark": ""
+            }
+        ];
+        if (isPrinterOk) {
+            document.getElementById("iframe").contentWindow.postMessage(printData, "*");
+        } else {
+            alert("请先启动打印程序服务");
+        }
+    }
+
+    window.addEventListener('message', function (e) {
+        alert(e.data.stauts)
+        var stauts = e.data.stauts;
+        if (stauts == "start") {
+            isPrinterOk = true;
+        }else if (stauts== "noStart") {
+           alert(e.data.desc);
+        } else if (stauts == "NO_Printer") {
+            alert(e.data.desc);
+        }else  {
+           //打印成功处理逻辑
+        }
+    })
+</script>
+<iframe src="http://localhost:8088/print.html" id="iframe" height="0" hidden></iframe>
+</body>
+</html>

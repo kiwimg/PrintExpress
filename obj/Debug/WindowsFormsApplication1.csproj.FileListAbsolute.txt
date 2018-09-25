@@ -1,0 +1,24 @@
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\lining\documents\visual studio 2015\Projects1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.dll
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.presentation.dll
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.pdb
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.xml
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.presentation.pdb
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\bin\Debug\zxing.presentation.xml
+C:\Users\Administrator\Downloads\notifyicon-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
